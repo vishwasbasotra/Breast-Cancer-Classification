@@ -5,6 +5,29 @@ The early diagnosis of BC can improve the prognosis and chance of survival signi
 
 Classification and data mining methods are an effective way to classify data. Especially in medical field, where those methods are widely used in diagnosis and analysis to make decisions.
 
+## Problem Statement
+
+
+__Predicting if the cancer diagnosis is benign or malignant based on several observations/features__
+- 30 features are used, examples:
+        - radius (mean of distances from center to points on the perimeter)
+        - texture (standard deviation of gray-scale values)
+        - perimeter
+        - area
+        - smoothness (local variation in radius lengths)
+        - compactness (perimeter^2 / area - 1.0)
+        - concavity (severity of concave portions of the contour)
+        - concave points (number of concave portions of the contour)
+        - symmetry 
+        - fractal dimension ("coastline approximation" - 1)
+
+- Datasets are linearly separable using all 30 input features
+- Number of Instances: 569
+- Class Distribution: 212 Malignant, 357 Benign
+- Target class:
+         - Malignant
+         - Benign
+
 ## Technical Requirements
 This Project has the following software requirements:
 - Python 3.7
