@@ -5,6 +5,12 @@ The early diagnosis of BC can improve the prognosis and chance of survival signi
 
 Classification and data mining methods are an effective way to classify data. Especially in medical field, where those methods are widely used in diagnosis and analysis to make decisions.
 
+## Technical Requirements
+This Project has the following software requirements:
+- Python 3.7
+- Anaconda
+- Jupyter Notebook
+
 ## Recommended Screening Guidelines:
 __Mammography.__ The most important screening test for breast cancer is the mammogram. A mammogram is an X-ray of the breast. It can detect breast cancer up to two years before the tumor can be felt by you or your doctor.
 
